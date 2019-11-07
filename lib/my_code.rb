@@ -13,4 +13,7 @@ def reduce(array, sv = 0)
   x =0 
   total = 0
   while x < array.length do 
-    total = yield
+    total = yield(total,array[x])
+    x += 1 
+  end 
+  
