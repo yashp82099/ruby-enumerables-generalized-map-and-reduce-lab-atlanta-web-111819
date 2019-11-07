@@ -16,5 +16,5 @@ def reduce(array, sv = 0)
     total = yield(total,array[x])
     x += 1 
   end 
-  return sum 
+  return total 
 end 
