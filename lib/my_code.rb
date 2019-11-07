@@ -11,7 +11,10 @@ end
 
 def reduce(array, sv = nil)
   if sv
-    
+    total = sv
+    x =0 
+  else 
+    total = 
   while x < array.length do 
     total = yield(total,array[x])
     x += 1 
