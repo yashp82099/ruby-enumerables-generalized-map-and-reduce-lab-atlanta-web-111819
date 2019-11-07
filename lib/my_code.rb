@@ -9,4 +9,4 @@ def map(array)
   return new 
 end 
 
-def reduce(array,)
+def reduce(array, sv = )
