@@ -3,4 +3,4 @@ def map(array)
   new = [] 
   i = 0 
   while x < array.length do 
-    new.push(yield)
+    new.push(yield(array[i]))
