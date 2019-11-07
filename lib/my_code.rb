@@ -13,4 +13,4 @@ def reduce(array, sv = 0)
   x =0 
   total = 0
   while x < array.length do 
-    total = 
+    total = yield
