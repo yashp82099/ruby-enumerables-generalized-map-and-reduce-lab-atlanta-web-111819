@@ -9,4 +9,7 @@ def map(array)
   return new 
 end 
 
-def reduce(array, sv = )
+def reduce(array, sv = 0)
+  x =0 
+  while x < array.length do 
+    new
